@@ -16,7 +16,8 @@ Plik `.agents/plugins/marketplace.json` zawiera wpis:
     {
       "name": "matematic-plugin",
       "source": {"source": "local", "path": "./"},
-      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"}
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Education & Research"
     }
   ]
 }
@@ -49,14 +50,20 @@ W zweryfikowanej instalacji na macOS:
 
 To potwierdza instalację lokalną, lecz nie potwierdza udostępnienia przez konto ChatGPT. Nie wynika z tego konieczność dodawania `mcp.json` ani modyfikacji treści 33 skilli.
 
-### Zalecana odrębna ścieżka dla chatgpt.com
+### GitHub jako źródło dla ChatGPT CHAT
 
-1. Pobierz paczkę skills-only: [matematic-plugin-0.1.0.zip](https://github.com/elconcept/matematic-plugin/releases/download/v0.1.0/matematic-plugin-0.1.0.zip).
-2. Prześlij archiwum do **Plugin Creator** w ChatGPT, aby utworzyć **osobisty plugin zapisany w koncie**. Samo lokalne polecenie `codex plugin marketplace add` nie zastępuje uploadu do konta.
-3. Po potwierdzeniu utworzenia w Plugin Creator sprawdź obecność w katalogu `Personal`, a następnie utwórz nowe okno CHAT i sprawdź odczyt `SKILL.md` dla wszystkich 33 skilli.
-4. Nie uznawaj zadania za zakończone, dopóki rejestr skilli faktycznie nie zawiera `matematic-plugin`. Jeżeli upload zostanie odrzucony, sprawdź diagnostykę komponentów i uprawnienia do funkcji na danym planie.
+Istnieją dwie różne ścieżki instalacji z GitHub:
 
-Publikacja ZIP i GitHub nie oznacza instalacji w koncie. Pakiet marketplace przeznaczony dla lokalnego Codex i pakiet uploadowany przez Plugin Creator to dwa różne mechanizmy dystrybucji. Żaden nie wymaga MCP dla wtyczki skills-only.
+1. **Lokalne marketplace Codex/ChatGPT Desktop** (`codex plugin marketplace add`): instaluje skille do `~/.codex/plugins/cache/`, ale ten stan **nie jest dowodem** załadowania ich w nowej sesji ChatGPT CHAT na chatgpt.com. Można odświeżać źródło przez `codex plugin marketplace upgrade` w środowisku, w którym dostępna jest komenda. Samo wskazanie GitHub nie daje gwarancji automatycznej synchronizacji na każdej powierzchni.
+2. **Import do workspace ChatGPT z GitHub** (dla uprawnionego administratora): w Admin Console → Plugins → Add → Import marketplace; źródło `https://github.com/elconcept/matematic-plugin`, Path puste, Branch `main`. Następnie sprawdzić raport importu, ustawienia instalacji i wywołać Sync now. Ta ścieżka obsługuje automatyczną **dzienną synchronizację** zmian GitHub.
+
+Dla osobistego konta bez dostępu do Admin Console nie potwierdzono w dokumentacji równoważnej ścieżki osobistego GitHub-autosync do ChatGPT CHAT. Wtedy nie należy deklarować, że sama lokalna instalacja marketplace gwarantuje skille w webowym CHAT.
+
+**Wyniki audytu 13.11.2026:** lokalny cache `matematic-plugin` ma 33 skille, a osobna, świeża sesja CHAT zgłosiła `0/33` po usunięciu statycznej instalacji ZIP. Ta starsza sesja nadal mogła widzieć zbuforowany rejestr `33/33`; nie traktować go jako potwierdzenia dostępności w nowych sesjach. Działająca `symetria-dowodowa-tknc` ma potwierdzoną instalację osobistą po stronie Plugin Creator (`created-by-me-remote`).
+
+**Brak konieczności MCP:** wtyczka zawiera tylko skille. Nie dołączać `mcp.json` w celu naprawy rejestracji w CHAT.
+
+Źródła: https://developers.openai.com/plugins/build/plugins oraz https://help.openai.com/en/articles/20001504-importing-and-syncing-plugin-marketplaces-from-github
 
 ## Kompatybilność i ograniczenia
 
