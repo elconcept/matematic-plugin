@@ -1,0 +1,1 @@
+# MateMatic Plugin for ChatGPT
