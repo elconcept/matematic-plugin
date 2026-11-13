@@ -1,31 +1,6 @@
 ---
 name: deliverable-fidelity-pl
-description: >
-  Weryfikator wiernosci deliverable - sprawdza, czy finalny dokument (opinia, memo,
-  pismo) wiernie oddaje ustalenia analizy: czy zadna flaga RED nie wypadla z podsumowania,
-  czy rozstrzygniecia sa odzwierciedlone. Mechaniczny check (skrypt, za darmo) + osad LLM
-  na 3 najciezszych ustaleniach. Inny niz grounding (czy cytat prawdziwy) i adversarial
-  (czy teza wytrzymuje) - ten pyta "czy streszczenie nie zgubilo tego, co wazne". Pominiete
-  RED = blokada. Uzywaj gdy: "czy deliverable oddaje analize", "czy nic nie wypadlo z
-  podsumowania", "weryfikacja wiernosci", "fidelity", "czy executive summary jest pelne",
-  "czy RED jest w finalnej wersji", "spojnosc analizy z deliverable", przed wyslaniem
-  zlozonego dokumentu ktory streszcza dluzsza analize.
-license: Apache-2.0
-allowed-tools: [Bash, Read]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
-attribution:
-  source: AnttiHero/lavern
-  license: Apache-2.0
-  relationship: pattern-only
-  note: >
-    Wzorzec weryfikatora uruchamianego po złożeniu deliverable: krytyczne ustalenia, wynik
-    ważony, próg warunkowy. Kod i reguły napisane od zera.
-metadata:
-  author: Wiesław Mazur / MateMatic
-  version: 1.1.0
-  companion_skills: adversarial-legal-review-pl, citation-grounding-pl, legal-ai-audit-bundle, legal-request-router-pl
+description: "Weryfikator wiernosci deliverable - sprawdza, czy finalny dokument (opinia, memo, pismo) wiernie oddaje ustalenia analizy: czy zadna flaga RED nie wypadla z podsumowania, czy rozstrzygniecia sa odzwierciedlone. Mechaniczny check (skrypt, za darmo) + osad LLM na 3."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

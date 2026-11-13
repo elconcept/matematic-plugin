@@ -1,44 +1,6 @@
 ---
 name: humanizer-pl
-version: 1.5.1
-description: |
-  Usuwa wzorce AI-slop z polskiego tekstu - sprawia, ze czyta sie naturalnie i ludzko.
-  Polska adaptacja blader/humanizer (MIT). Uzywaj do edycji/przegladu polskich tresci:
-  artykuly, aktualnosci, posty LinkedIn, maile, scenariusze, copy stron, dokumentacja.
-  Wykrywa: inflacje znaczeniowa, slop-slownictwo PL, imieslowy pozornej glebi,
-  vague attributions, naduzycie em-dash, regule trojki, hedging, artefakty czatbota,
-  kalki anglicyzmow, pisownie sprzed reformy RJP 2026, monotonny rytm i skladnie
-  rzeczownikowa. Minimalna ingerencja: zmienia slowa, nie tresc - bramka po
-  przepisaniu (skrypt stdlib) pilnuje dat, kwot, przepisow, sygnatur, cytatow, sily
-  normy, pewnosci i terminow prawnych. Umowy i pisma: tryb rejestru prawniczego.
-license: MIT
-attribution:
-  - source: blader/humanizer
-    url: https://github.com/blader/humanizer
-    license: MIT
-    relationship: adaptation
-    note: >
-      Źródło samo bazuje na Wikipedia „Signs of AI writing” (WikiProject AI Cleanup).
-      Polska adaptacja 29 wzorców, odwrócony wzorzec cudzysłowów, dodany wzorzec kalk
-      anglicyzmów. Odpowiednik EN: humanizer-en.
-  - source: deepseek-ai/deepseek-harness
-    url: https://github.com/deepseek-ai/deepseek-harness
-    license: MIT
-    relationship: pattern-only
-    note: >
-      Tryb dokumentacja (wzorce 35-42 i reguła „zachowaj kompletną propozycję"): adaptacja
-      ich slop-checklisty dla dokumentacji technicznej i standardu prozy (docs/AGENTS.md,
-      .agents/skills/dsh-prose-standard). Zero tekstu stamtąd, wzorce i przykłady polskie
-      napisane od zera.
-compatibility: claude-code
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - AskUserQuestion
-data-residency: local
-requires-human-approval: false
-pii-egress: none
+description: "Usuwa wzorce AI-slop z polskiego tekstu - sprawia, ze czyta sie naturalnie i ludzko. Polska adaptacja blader/humanizer (MIT). Uzywaj do edycji/przegladu polskich tresci: artykuly, aktualnosci, posty LinkedIn, maile, scenariusze, copy stron, dokumentacja. Wykrywa: inflacje."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

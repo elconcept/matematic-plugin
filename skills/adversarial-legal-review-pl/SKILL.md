@@ -1,40 +1,6 @@
 ---
 name: adversarial-legal-review-pl
-description: >
-  Czerwony zespół dla pisma prawnego - bierze gotowy deliverable wysokiej stawki
-  (opinia, memo DD, M&A, pismo procesowe, rekomendacja do zarządu) i prowadzi
-  kontradyktoryjną debatę: builder buduje najmocniejszą wersję tezy, attacker ją
-  atakuje kontrargumentami i kontr-orzecznictwem, synthesizer godzi, verifier robi
-  kontrolę końcową. Cel: wyłapać słabość ZANIM zrobi to przeciwnik, sąd albo klient.
-  Z bramką kosztu - tylko dla spraw wysokiej stawki, nie dla każdego zapytania (drogie
-  tokenowo). Używaj gdy: "przeatakuj tę opinię", "czerwony zespół", "adwokat diabła
-  dla tego pisma", "znajdź słabości", "red team", "stress-test argumentacji",
-  "co powie druga strona", "pre-mortem opinii", "obroń tę tezę", "kontradyktoryjna
-  weryfikacja", "devil's advocate", weryfikacja high-stakes deliverable przed wysłaniem.
-license: Apache-2.0
-allowed-tools: [Read, Write]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
-attribution:
-  - source: AnttiHero/lavern
-    license: Apache-2.0
-    relationship: pattern-only
-    note: >
-      Wzorzec debaty z trójwarstwową weryfikacją oraz panel rozbieżności. Prompty i role
-      napisane od zera.
-  - source: gregmos/memoforge
-    url: https://github.com/gregmos/memoforge
-    license: MIT
-    relationship: clean-room
-    note: >
-      Ograniczona samorewizja z cofnięciem po regresji, poziomy dostępu recenzentów
-      i zasada „zawsze dostarcz". Koncepcje adaptowane clean-room, nie prompty ani kod.
-      Ten sam upstream co bliźniak EN.
-metadata:
-  author: Wiesław Mazur / MateMatic
-  version: 1.3.0
-  companion_skills: citation-grounding-pl, legal-ai-audit-bundle, matematic-expert-panel, saos-orzecznictwo
+description: "Czerwony zespół dla pisma prawnego - bierze gotowy deliverable wysokiej stawki (opinia, memo DD, M&A, pismo procesowe, rekomendacja do zarządu) i prowadzi kontradyktoryjną debatę: builder buduje najmocniejszą wersję tezy, attacker ją atakuje kontrargumentami i."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

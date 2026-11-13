@@ -1,34 +1,6 @@
 ---
 name: doc-intel-llm-tier-pl
-description: >-
-  Warstwa LLM-tier ekstrakcji groundowanej dla polskich dokumentow prawnych - WRAP na
-  contextgem (Apache-2.0). Wyciaga z umowy/pisma/wyroku INFEROWANE koncepty (kara umowna,
-  termin, sad wlasciwy, strony, ryzyka), ktorych nie da sie zlapac regexem, i zakotwicza
-  KAZDY do zdania/akapitu zrodlowego (grounding) plus uzasadnienie. Zwraca rekordy zgodne
-  z kontraktem doc-intel-contract-pl {concept, block_type, text, confidence, refs,
-  justification} - most do citation-grounding-pl. Governance wbudowany w tool: domyslnie
-  backend LOKALNY (Ollama), model chmurowy wymaga jawnej flagi + ostrzega o RODO/EOG. Uzywaj
-  gdy: "wyciagnij koncepty z umowy", "ekstrakcja z dokumentu prawnego", "co mowi ta umowa o
-  X", "grounded extraction", "wyciagnij postanowienia + zrodla", ekstrakcja pol z pisma z
-  zakotwiczeniem cytatu. Dopelnia (nie zastepuje) stdlib doc-intel-contract-pl. NIE porada prawna.
-license: MIT
-data-residency: local
-requires-human-approval: true
-attribution:
-  source: shcherbak-ai/contextgem
-  url: https://github.com/shcherbak-ai/contextgem
-  license: Apache-2.0
-  relationship: dependency
-  note: >
-    Zależność runtime (contextgem>=0.25.1), świadomy wyjątek od zasady stdlib dla ekstrakcji
-    LLM. Skill nie wywodzi się z contextgem - wywołuje go.
-metadata:
-  version: 1.0.0
-  author: MateMatic (Wieslaw Mazur)
-  domain: document-intelligence-pl
-  updated: 2026-07-21
-  requires: contextgem>=0.25.1 (NIE stdlib - swiadomy wyjatek dla ekstrakcji LLM)
-  positioning: local-first-configurable, RODO-safe (backend lokalny/EOG dla danych klienta)
+description: "Warstwa LLM-tier ekstrakcji groundowanej dla polskich dokumentow prawnych - WRAP na contextgem (Apache-2.0). Wyciaga z umowy/pisma/wyroku INFEROWANE koncepty (kara umowna, termin, sad wlasciwy, strony, ryzyka), ktorych nie da sie zlapac regexem, i zakotwicza KAZDY do."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

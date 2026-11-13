@@ -1,21 +1,6 @@
 ---
 name: legal-data-hunter-pl
-description: >
-  Catalog and bulk-harvest layer for Polish legal data, built on the Legal Data
-  Hunter project (worldwidelaw/legal-sources). Use this skill whenever the user
-  wants to know which Polish legal sources are already available, bulk-download
-  Polish legislation, case law or regulator decisions (UODO, UOKiK, KNF, UKE,
-  URE, KIO, NSA, Trybunal Konstytucyjny, Sad Najwyzszy, Dziennik Urzedowy, Sejm
-  ELI), build a local RODO-safe corpus of Polish law, or decide whether MateMatic
-  needs to build its own connector for a gap. Trigger on "Legal Data Hunter",
-  "pokrycie polskiego prawa", "zaciagnij ustawy", "harvest orzecznictwa",
-  "ktore zrodla mamy", "luka w zrodlach". Companion to saos-orzecznictwo (live
-  query) and eu-sparql-search (EU law).
-license: Apache-2.0
-allowed-tools: [WebFetch, Bash, Read, Write]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
+description: "Catalog and bulk-harvest layer for Polish legal data, built on the Legal Data Hunter project (worldwidelaw/legal-sources). Use this skill whenever the user wants to know which Polish legal sources are already available, bulk-download Polish legislation, case law or."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

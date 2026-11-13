@@ -1,29 +1,6 @@
 ---
 name: memo-z-repertorium-pl
-description: >
-  Memo prawne z przypisami ze źródeł Repertorium (korpus prawa polskiego i unijnego przez konektor
-  MCP): odpowiedź krótka, podstawa prawna z brzmieniem przepisu, orzecznictwo z sygnaturą,
-  identyfikatorem dokumentu i linkiem, siła linii orzeczniczej z grafu powołań, nazwane granice
-  źródeł i sprawdzenie wszystkich powołań przed oddaniem (verify_citations). Każde zdanie
-  z tezą prawną ma źródło pod akapitem albo oznaczenie, że go nie ma. Używaj gdy: "memo z
-  Repertorium", "przygotuj memo", "notatka prawna ze źródłami", "opinia robocza z orzecznictwem",
-  "zbierz orzecznictwo do pytania", "research memo", "memo z przypisami", "co mówi orzecznictwo o".
-  Wymaga podłączonego konektora Repertorium.
-license: Apache-2.0
-allowed-tools: [Read]
-data-residency: remote
-requires-human-approval: true
-pii-egress: query-text
-attribution:
-  relationship: original
-  note: >
-    Własny skill MateMatic do konektora Repertorium. Pomysł skilla-memo dostarczanego obok
-    serwera MCP zaobserwowany publicznie u dostawców danych prawnych; treść, procedura i format
-    są własne, oparte na instrukcji serwera Repertorium.
-metadata:
-  author: Wiesław Mazur / MateMatic
-  version: 1.0.0
-  updated: 2026-11-03
+description: "Memo prawne z przypisami ze źródeł Repertorium (korpus prawa polskiego i unijnego przez konektor MCP): odpowiedź krótka, podstawa prawna z brzmieniem przepisu, orzecznictwo z sygnaturą, identyfikatorem dokumentu i linkiem, siła linii orzeczniczej z grafu powołań, nazwane."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

@@ -1,19 +1,6 @@
 ---
 name: saos-orzecznictwo
-description: >
-  Search and retrieve Polish court judgments via the SAOS REST API (System Analizy
-  Orzeczen Sadowych, Fundacja ePanstwo). Use this skill whenever the user wants to
-  find Polish case law - orzeczenia, wyroki, postanowienia - from sady powszechne,
-  Sad Najwyzszy, Trybunal Konstytucyjny or Krajowa Izba Odwolawcza; search by case
-  number (sygnatura), date range, court, judge, keyword, legal basis or referenced
-  regulation; fetch full judgment text; or bulk-download the judgment corpus. Also
-  trigger on "orzecznictwo PL", "SAOS", "szukaj wyroku", "sygnatura akt", "baza
-  orzeczen". Companion to eu-sparql-search (which covers EU law / CJEU).
-license: Apache-2.0
-allowed-tools: [WebFetch, Bash, Read, Write]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
+description: "Search and retrieve Polish court judgments via the SAOS REST API (System Analizy Orzeczen Sadowych, Fundacja ePanstwo). Use this skill whenever the user wants to find Polish case law - orzeczenia, wyroki, postanowienia - from sady powszechne, Sad Najwyzszy, Trybunal."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

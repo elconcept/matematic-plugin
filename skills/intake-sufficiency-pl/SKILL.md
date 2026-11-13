@@ -1,36 +1,6 @@
 ---
 name: intake-sufficiency-pl
-description: >
-  Ocena wystarczalnosci zlecenia/briefu na WEJSCIU - zanim zaczniesz prace prawna,
-  sprawdza czy masz dosc kontekstu: jasny cel, zdefiniowany zakres, zidentyfikowany
-  podmiot, fakty/dokumenty, ograniczenia. Wypisuje luki i niejednoznacznosci, generuje
-  pytania uzupelniajace do zadania klientowi, sklada szkielet karty zlecenia. Lustro
-  legal-request-router-pl: router ocenia jaka kontrole dac OUTPUTOWI, ten skill ocenia
-  czy WEJSCIE wystarcza, by w ogole zaczac. Uzywaj gdy: "czy mam dosc zeby zaczac",
-  "ocen brief", "czego brakuje w zleceniu", "jakie pytania zadac klientowi", "czy to
-  zlecenie jest kompletne", "luki w brief", "doprecyzuj zlecenie", "intake", na poczatku
-  nowej sprawy / po pierwszym kontakcie / po bookingu spotkania.
-license: Apache-2.0
-allowed-tools: [Read]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
-attribution:
-  - source: AnttiHero/lavern
-    license: Apache-2.0
-    relationship: pattern-only
-    note: >
-      Wzorzec analizy wystarczalności zlecenia przed przyjęciem sprawy. Schemat i rubryka
-      napisane od zera.
-  - source: akunikkola/claude-for-legal-finland
-    license: MIT
-    relationship: adaptation
-    note: >
-      Weryfikacja premis prawnych klienta („premissien tarkistus”) dodana w v1.1.
-metadata:
-  author: Wiesław Mazur / MateMatic
-  version: 1.1.0
-  companion_skills: legal-request-router-pl, let-it-be, citation-grounding-pl
+description: "Ocena wystarczalnosci zlecenia/briefu na WEJSCIU - zanim zaczniesz prace prawna, sprawdza czy masz dosc kontekstu: jasny cel, zdefiniowany zakres, zidentyfikowany podmiot, fakty/dokumenty, ograniczenia. Wypisuje luki i niejednoznacznosci, generuje pytania uzupelniajace do."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

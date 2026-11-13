@@ -1,28 +1,6 @@
 ---
 name: eu-sparql-search
-description: >
-  Use when you need EU legislation, publications or CJEU case law found by CELEX number,
-  date, subject or document type, or a SPARQL query written for the Publications Office
-  endpoint (https://publications.europa.eu/webapi/rdf/sparql) and the Cellar knowledge
-  graph (CDM ontology): finding regulations, directives and decisions, searching EUR-Lex,
-  retrieving CJEU judgments, orders and Advocate General opinions, downloading a document
-  in a given language or format, querying Cellar metadata. Not for checking whether a
-  quoted passage or citation is accurate, and not for national law. Unlike the
-  verification and drafting skills, this one reaches out: your query goes to the EU
-  Publications Office endpoint, so phrase it in terms of the law, not of your matter.
-license: Apache-2.0
-allowed-tools: [WebFetch, Read]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
-last_verified: 2026-10-19
-freshness_window: 12 months
-freshness_category: procedural
-verified_against:
-  - https://publications.europa.eu/webapi/rdf/sparql
-metadata:
-  author: "Wiesław Mazur / MateMatic"
-  version: "1.1.0"
+description: "Use when you need EU legislation, publications or CJEU case law found by CELEX number, date, subject or document type, or a SPARQL query written for the Publications Office endpoint (https://publications.europa.eu/webapi/rdf/sparql) and the Cellar knowledge graph (CDM."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

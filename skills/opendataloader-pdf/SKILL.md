@@ -1,11 +1,6 @@
 ---
 name: opendataloader-pdf
-description: Wysokiej jakości konwerter PDF→JSON/Markdown dla AI - zachowuje reading order, strukturę tabel, headings. Użyj gdy użytkownik mówi "wysoka jakość PDF", "papers naukowe PDF", "tabele z PDF", "opendataloader", "PDF z skomplikowaną strukturą", albo gdy MarkItDown daje słaby output. Główny konwerter PDF→MD w pipeline Konwerter/ w Obsidian Vault.
-license: Apache-2.0
-allowed-tools: [Bash, Read, Write]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
+description: "Wysokiej jakości konwerter PDF→JSON/Markdown dla AI - zachowuje reading order, strukturę tabel, headings. Użyj gdy użytkownik mówi \"wysoka jakość PDF\", \"papers naukowe PDF\", \"tabele z PDF\", \"opendataloader\", \"PDF z skomplikowaną strukturą\", albo gdy MarkItDown daje słaby."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

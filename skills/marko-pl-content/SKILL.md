@@ -1,29 +1,6 @@
 ---
 name: marko-pl-content
-version: 1.3.0
-description: >-
-  Używaj, gdy użytkownik chce surowej oceny redakcyjnej polskiego tekstu przed publikacją albo
-  wysyłką. Typowe prośby: „sprawdź mój post”, „czy to nadaje się do publikacji”, „co jest nie tak z
-  tym tekstem”, „oceń tę stronę”, „marko?”, „marko, zerknij”. Wejście: wklejony tekst, wskazany plik
-  albo zmiany w plikach .md/.html/.txt, które w repozytorium git nie trafiły jeszcze do commita.
-  Wynik: werdykt (katastrofa, słabe, przeciętne albo ok - „ok” pada rzadko z założenia) i do ośmiu
-  zarzutów przypiętych do linii, także za pisownię sprzed reformy 2026. Bez pochwał: wskazuje błędy i
-  nigdy nie przepisuje tekstu. Nie do przeglądu kodu, samej korekty ani tłumaczenia. Nie wywołuj, gdy
-  „Marko” to imię osoby („Marko z designu”). Wersje EN i PT: reviewer-en, reviewer-pt.
-license: MIT
-attribution:
-  source: julianmemberstack/marko
-  url: https://github.com/julianmemberstack/marko
-  license: MIT
-  relationship: adaptation
-  note: >
-    Adaptacja code reviewera dla Claude Code na polski review treści MateMatic. Format
-    werdyktu i zasada „no fixes” zachowane 1:1. Kategorie zarzutów, język i zakres własne.
-    Odpowiednik EN: reviewer-en.
-allowed-tools: [Read, Grep, Glob, "Bash(git diff:*)", "Bash(git status:*)"]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
+description: "Używaj, gdy użytkownik chce surowej oceny redakcyjnej polskiego tekstu przed publikacją albo wysyłką. Typowe prośby: „sprawdź mój post”, „czy to nadaje się do publikacji”, „co jest nie tak z tym tekstem”, „oceń tę stronę”, „marko?”, „marko, zerknij”. Wejście: wklejony."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

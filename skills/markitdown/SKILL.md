@@ -1,11 +1,6 @@
 ---
 name: markitdown
-description: Konwersja dowolnego dokumentu (PDF, Word, Excel, PowerPoint, HTML, EPUB, audio, obrazy, YouTube) na Markdown dla LLM. Użyj gdy użytkownik mówi "konwertuj PDF", "przerób Word na markdown", "zamień PPT na MD", "markdown z Excela", "wyciągnij tekst z PDF", albo daje plik Office/PDF do analizy. Microsoft MarkItDown (pip) + MCP server.
-license: MIT
-allowed-tools: [Bash, Read, Write]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
+description: "Konwersja dowolnego dokumentu (PDF, Word, Excel, PowerPoint, HTML, EPUB, audio, obrazy, YouTube) na Markdown dla LLM. Użyj gdy użytkownik mówi \"konwertuj PDF\", \"przerób Word na markdown\", \"zamień PPT na MD\", \"markdown z Excela\", \"wyciągnij tekst z PDF\", albo daje plik."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)
@@ -21,10 +16,10 @@ pii-egress: none
 
 Lightweight utility Microsoftu - zachowuje strukturę (nagłówki, listy, tabele, linki), nie wygląd. Pod LLM, nie pod human.
 
-## Instalacja (zrobione 2026-04-21)
+## Opcjonalna instalacja CLI poza ChatGPT
 
 ```bash
-python -m pip install --user markitdown markitdown-mcp
+python -m pip install --user markitdown
 ```
 
 Wymaga Python 3.10+ (testowane na 3.14). CLI: `python -m markitdown`.

@@ -1,31 +1,6 @@
 ---
 name: hierarchia-zrodel-pl
-description: >-
-  Routing autorytetu źródła PRZED udzieleniem odpowiedzi prawnej - mapuje pytanie
-  na warstwy źródeł prawa polskiego i unijnego (Konstytucja, ratyfikowane umowy
-  międzynarodowe, prawo UE z zasadą pierwszeństwa, ustawy, rozporządzenia,
-  akty prawa miejscowego, orzecznictwo TK/SN/NSA/TSUE/ETPC, soft law),
-  ustala kolejność weryfikacji, sprawdza reguły kolizyjne i wskazuje konektor
-  MCP do każdej warstwy. Używaj gdy: "gdzie to sprawdzić", "jaka hierarchia
-  źródeł", "które źródło ma pierwszeństwo", "od czego zacząć research",
-  "mapa źródeł do pytania", przed każdym researchem prawnym bez oczywistego
-  źródła.
-license: Apache-2.0
-allowed-tools: [Read]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
-attribution:
-  source: swiss-legal-source-authority-triage (Enrique G. Zbinden)
-  license: MIT
-  relationship: pattern-only
-  note: >
-    Wzorzec „route authority before answer”. Bez kodu i tekstu źródła; treść PL/UE napisana
-    od zera.
-metadata:
-  author: "Wiesław Mazur / MateMatic"
-  version: "1.0.0"
-  companion_skills: "citation-grounding-pl, legal-request-router-pl, saos-orzecznictwo, eu-sparql-search, legal-data-hunter-pl"
+description: "Routing autorytetu źródła PRZED udzieleniem odpowiedzi prawnej - mapuje pytanie na warstwy źródeł prawa polskiego i unijnego (Konstytucja, ratyfikowane umowy międzynarodowe, prawo UE z zasadą pierwszeństwa, ustawy, rozporządzenia, akty prawa miejscowego, orzecznictwo."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

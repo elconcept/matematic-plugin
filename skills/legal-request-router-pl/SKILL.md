@@ -1,31 +1,6 @@
 ---
 name: legal-request-router-pl
-description: >
-  Klasyfikator zadania prawnego - patrzy na zapytanie (i opcjonalnie deliverable)
-  i decyduje, ktora sciezka weryfikacji uruchomic: zwykla odpowiedz, weryfikacja
-  cytatow (citation-grounding-pl), kontradyktoryjna debata (adversarial-legal-review-pl)
-  czy paczka audytowa (legal-ai-audit-bundle). Ocenia zlozonosc i ryzyko, zwraca
-  decyzje routingu z uzasadnieniem. To warstwa NAD warstwa weryfikacji - chroni przed
-  paleniem tokenow na rutynie i przed przepuszczeniem spraw wysokiej stawki bez kontroli. Uzywaj
-  gdy: "co z tym zrobic", "czy to wymaga debaty", "jaka sciezka", "rozdziel zadanie",
-  "klasyfikuj zapytanie", "czy to high-stakes", "routing", "triage zadania prawnego",
-  na poczatku obslugi nowego zapytania prawnego zanim wybierzesz narzedzia.
-license: Apache-2.0
-allowed-tools: [Read]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
-attribution:
-  source: AnttiHero/lavern
-  license: Apache-2.0
-  relationship: pattern-only
-  note: >
-    Wzorzec klasyfikacji żądania przed skierowaniem go do narzędzia. Schemat i reguły
-    napisane od zera.
-metadata:
-  author: Wiesław Mazur / MateMatic
-  version: 1.0.0
-  companion_skills: citation-grounding-pl, adversarial-legal-review-pl, legal-ai-audit-bundle, let-it-be
+description: "Klasyfikator zadania prawnego - patrzy na zapytanie (i opcjonalnie deliverable) i decyduje, ktora sciezka weryfikacji uruchomic: zwykla odpowiedz, weryfikacja cytatow (citation-grounding-pl), kontradyktoryjna debata (adversarial-legal-review-pl) czy paczka audytowa."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)

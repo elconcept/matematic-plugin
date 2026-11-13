@@ -1,30 +1,6 @@
 ---
 name: legal-ai-audit-bundle
-description: >
-  Pakuje output AI prawny w artefakt audytowy zgodny z AI Act art. 12 - łączy
-  deliverable, ślad rozumowania (debata / grounding), log kosztu i metadane
-  (model, data, źródła, kto zatwierdził) w jeden ustrukturyzowany folder z manifestem
-  i hashami integralności SHA256. Generalizacja matematic-video-governance na dowolny
-  output prawny. Dowód należytej staranności i record-keepingu. Używaj gdy: "spakuj
-  audyt", "bundle zgodności", "artefakt AI Act", "ślad rozumowania do archiwum",
-  "dokumentacja outputu AI", "record-keeping", "co archiwizować dla AI Act",
-  "log kosztu i decyzji", "paczka audytowa deliverable", po zakończeniu opinii /
-  adversarial-legal-review / grounding gdy trzeba zarchiwizować dowód.
-license: Apache-2.0
-allowed-tools: [Bash, Read, Write]
-data-residency: local
-requires-human-approval: false
-pii-egress: none
-attribution:
-  source: AnttiHero/lavern
-  license: Apache-2.0
-  relationship: pattern-only
-  note: >
-    Wzorzec paczki audytowej; wzór własny matematic-video-governance (AI Act art. 12).
-metadata:
-  author: Wiesław Mazur / MateMatic
-  version: 1.0.0
-  companion_skills: adversarial-legal-review-pl, citation-grounding-pl, matematic-video-governance, legal-ai-plugin-governance
+description: "Pakuje output AI prawny w artefakt audytowy zgodny z AI Act art. 12 - łączy deliverable, ślad rozumowania (debata / grounding), log kosztu i metadane (model, data, źródła, kto zatwierdził) w jeden ustrukturyzowany folder z manifestem i hashami integralności SHA256."
 ---
 
 ## Adaptacja do ChatGPT (produkt CHAT, nadrzędna wobec instrukcji zależnych od środowiska)
