@@ -1,0 +1,6 @@
+interface:
+  display_name: "intake sufficiency pl"
+  short_description: "Praca w CHAT: intake sufficiency pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

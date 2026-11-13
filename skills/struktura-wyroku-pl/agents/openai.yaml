@@ -1,0 +1,6 @@
+interface:
+  display_name: "struktura wyroku pl"
+  short_description: "Praca w CHAT: struktura wyroku pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

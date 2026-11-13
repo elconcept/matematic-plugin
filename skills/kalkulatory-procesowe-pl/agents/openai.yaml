@@ -1,0 +1,6 @@
+interface:
+  display_name: "kalkulatory procesowe pl"
+  short_description: "Praca w CHAT: kalkulatory procesowe pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

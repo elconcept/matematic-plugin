@@ -1,0 +1,6 @@
+interface:
+  display_name: "legal ai audit bundle"
+  short_description: "Praca w CHAT: legal ai audit bundle"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "atak przeciwnika pl"
+  short_description: "Praca w CHAT: atak przeciwnika pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

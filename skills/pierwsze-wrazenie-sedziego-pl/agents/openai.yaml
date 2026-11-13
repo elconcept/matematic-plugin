@@ -1,0 +1,6 @@
+interface:
+  display_name: "pierwsze wrazenie sedziego pl"
+  short_description: "Praca w CHAT: pierwsze wrazenie sedziego pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

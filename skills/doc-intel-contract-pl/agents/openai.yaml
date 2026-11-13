@@ -1,0 +1,6 @@
+interface:
+  display_name: "doc intel contract pl"
+  short_description: "Praca w CHAT: doc intel contract pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

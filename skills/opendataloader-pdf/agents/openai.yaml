@@ -1,0 +1,6 @@
+interface:
+  display_name: "opendataloader pdf"
+  short_description: "Praca w CHAT: opendataloader pdf"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

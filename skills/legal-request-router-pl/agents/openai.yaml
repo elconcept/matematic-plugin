@@ -1,0 +1,6 @@
+interface:
+  display_name: "legal request router pl"
+  short_description: "Praca w CHAT: legal request router pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

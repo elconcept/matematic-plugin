@@ -1,0 +1,6 @@
+interface:
+  display_name: "adversarial legal review pl"
+  short_description: "Praca w CHAT: adversarial legal review pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

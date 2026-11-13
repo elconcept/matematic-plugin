@@ -1,0 +1,6 @@
+interface:
+  display_name: "klauzule kontraktowe pl"
+  short_description: "Praca w CHAT: klauzule kontraktowe pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

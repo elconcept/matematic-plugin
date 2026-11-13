@@ -1,0 +1,6 @@
+interface:
+  display_name: "marko pl content"
+  short_description: "Praca w CHAT: marko pl content"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

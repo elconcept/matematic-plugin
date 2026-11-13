@@ -1,0 +1,6 @@
+interface:
+  display_name: "hierarchia zrodel pl"
+  short_description: "Praca w CHAT: hierarchia zrodel pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

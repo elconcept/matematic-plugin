@@ -1,0 +1,6 @@
+interface:
+  display_name: "subsumpcja pl"
+  short_description: "Praca w CHAT: subsumpcja pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

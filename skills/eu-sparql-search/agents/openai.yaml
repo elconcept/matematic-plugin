@@ -1,0 +1,6 @@
+interface:
+  display_name: "eu sparql search"
+  short_description: "Praca w CHAT: eu sparql search"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

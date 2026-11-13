@@ -1,0 +1,6 @@
+interface:
+  display_name: "memo z repertorium pl"
+  short_description: "Praca w CHAT: memo z repertorium pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

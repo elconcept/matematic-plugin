@@ -1,0 +1,6 @@
+interface:
+  display_name: "markitdown"
+  short_description: "Praca w CHAT: markitdown"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

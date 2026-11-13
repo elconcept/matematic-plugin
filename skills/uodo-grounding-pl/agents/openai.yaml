@@ -1,0 +1,6 @@
+interface:
+  display_name: "uodo grounding pl"
+  short_description: "Praca w CHAT: uodo grounding pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

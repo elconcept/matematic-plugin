@@ -1,0 +1,6 @@
+interface:
+  display_name: "ekstraktor cytatow pl"
+  short_description: "Praca w CHAT: ekstraktor cytatow pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

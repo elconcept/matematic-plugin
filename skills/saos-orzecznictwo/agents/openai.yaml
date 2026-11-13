@@ -1,0 +1,6 @@
+interface:
+  display_name: "saos orzecznictwo"
+  short_description: "Praca w CHAT: saos orzecznictwo"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "doc intel llm tier pl"
+  short_description: "Praca w CHAT: doc intel llm tier pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

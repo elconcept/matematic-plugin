@@ -1,0 +1,6 @@
+interface:
+  display_name: "matematic expert panel"
+  short_description: "Praca w CHAT: matematic expert panel"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

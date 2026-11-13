@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "matematic-plugin",
+  "version": "0.1.0",
+  "description": "33 skille MateMatic dotyczące prawa, dokumentów i jakości tekstu dla ChatGPT CHAT; bez serwerów i połączeń.",
+  "author": {
+    "name": "elconcept"
+  },
+  "repository": "https://github.com/elconcept/matematic-plugin",
+  "homepage": "https://github.com/elconcept/matematic-plugin",
+  "keywords": [
+    "chatgpt",
+    "legal-ai",
+    "polish-law",
+    "agent-skills",
+    "skills-only"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MateMatic — CHAT",
+        "shortDescription": "33 skille prawne PL/UE",
+        "longDescription": "Zbiór 33 skilli prawnych PL/UE, dokumentowych i jakości tekstu. Zawiera metodykę i pliki pomocnicze, ale bez własnych serwerów lub narzędzi.",
+        "developerName": "elconcept",
+        "category": "Education & Research",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Zweryfikuj cytaty prawne i orzeczenia na podstawie źródeł.",
+          "Przeanalizuj akta i przygotuj chronologię faktów.",
+          "Przeprowadź adversarial review mojego pisma."
+        ]
+      }
+    }
+  }
+}

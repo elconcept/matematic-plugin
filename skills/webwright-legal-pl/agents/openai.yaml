@@ -1,0 +1,6 @@
+interface:
+  display_name: "webwright legal pl"
+  short_description: "Praca w CHAT: webwright legal pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

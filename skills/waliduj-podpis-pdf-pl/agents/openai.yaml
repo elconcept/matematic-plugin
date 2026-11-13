@@ -1,0 +1,6 @@
+interface:
+  display_name: "waliduj podpis pdf pl"
+  short_description: "Praca w CHAT: waliduj podpis pdf pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true

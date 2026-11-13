@@ -1,0 +1,6 @@
+interface:
+  display_name: "redline docx pl"
+  short_description: "Praca w CHAT: redline docx pl"
+policy:
+  products: [CHAT]
+  allow_implicit_invocation: true
