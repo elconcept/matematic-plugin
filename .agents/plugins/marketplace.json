@@ -1,0 +1,19 @@
+{
+  "name": "matematic-plugin",
+  "interface": {
+    "displayName": "MateMatic — CHAT"
+  },
+  "plugins": [
+    {
+      "name": "matematic-plugin",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ]
+}
